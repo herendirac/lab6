@@ -8,7 +8,7 @@ app.use(express.static("public")); // access images,css,js
 app.get("/", function(req,res){
     
     //res.send("hello");
-    res.render("index.html");
+    res.render("index.ejs");
     
 //MERCURY   
 } );
