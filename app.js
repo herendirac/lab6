@@ -15,6 +15,7 @@ app.get("/", function(req,res){
 app.get("/mercury",function(req,res)
 {
     //console.log("In Mercury route");
+    res.send("<h1>Mercury planet<h1>");
     res.render("mercury.ejs");
     
 });
@@ -22,6 +23,7 @@ app.get("/mercury",function(req,res)
 app.get("/venus",function(req,res)
 {
     res.send("<h1>Venus planet<h1>");
+    res.render("venus.ejs");
 });
 //MARS
 app.get("/mars",function(req,res)
