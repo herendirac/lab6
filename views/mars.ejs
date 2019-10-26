@@ -1,0 +1,26 @@
+<!-- All ejs tags go with the <%  %>tags -->
+<% include partials/headers.ejs %>
+
+
+<body>
+    
+    <h1> Mars Page! </h1>
+    p>Select a different planet to learn about: </p>
+        <a href="/mercury"> Mercury </a> <br>
+        <a href="/venus"> Venus </a> <br>
+        <a href="/mars"> Mars </a> <br>
+        <a href="/earth"> Earth </a> <br>
+    
+    <img src="img/mars.jpg" width="50" />
+    
+    <div class="marsP">
+                <p> The fourth planet from the Sun, Mars is a dusty, cold, 
+                desert world with a very thin atmosphere. This dynamic planet has seasons, 
+                polar ice caps and weather and canyons and extinct volacanoes, evidence of an even more active past.
+                Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape.</p>
+        </div>
+    
+    <% include partials/footer.ejs %>
+    
+</body>
+</html>

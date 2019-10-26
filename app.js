@@ -14,7 +14,7 @@ app.get("/", function(req,res){
 } );
 app.get("/mercury",function(req,res)
 {
-    console.log("In Mercury route");
+    //console.log("In Mercury route");
     res.render("mercury.ejs");
     
 });
@@ -28,7 +28,11 @@ app.get("/mars",function(req,res)
 {
     res.send("<h1>Mars planet<h1>");
 });
-
+//EARTH
+app.get("/earth",function(req,res)
+{
+    res.send("<h1>Earth planet<h1>");
+});
 
 //server
 app.listen(process.env.PORT, process.env.IP, function(){
