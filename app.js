@@ -1,6 +1,6 @@
 const express = require ("express");
 const app = express();
-app.engine("html",require("ejs").renderFile);
+app.engine('html',require('ejs').renderFile);
 app.use(express.static("public")); // access images,css,js
 
 
