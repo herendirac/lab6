@@ -16,7 +16,7 @@ app.get("/mercury",function(req,res)
 {
     //console.log("In Mercury route");
     res.send("<h1>Mercury planet<h1>");
-    res.render("mercury.ejs");
+    res.render("mercury.html");
     
 });
 //VENUS
