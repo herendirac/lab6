@@ -29,11 +29,13 @@ app.get("/venus",function(req,res)
 app.get("/mars",function(req,res)
 {
     res.send("<h1>Mars planet<h1>");
+    res.render("mars.ejs");
 });
 //EARTH
 app.get("/earth",function(req,res)
 {
     res.send("<h1>Earth planet<h1>");
+    res.render("earth.ejs");
 });
 
 //server
