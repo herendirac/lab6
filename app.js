@@ -15,7 +15,7 @@ app.get("/", function(req,res){
 app.get("/mercury",function(req,res)
 {
     //console.log("In Mercury route");
-    res.send("<h1>Mercury planet<h1>");
+   // res.send("<h1>Mercury planet<h1>");
     res.render("mercury.html");
     
 });

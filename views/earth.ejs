@@ -1,27 +1,17 @@
-<!-- All ejs tags go with the <%  %>tags -->
 <% include partials/header.ejs %>
 
-
-<body>
-    
-    <h1> Earth Page! </h1>
-      <p>Select a different planet to learn about: </p>
-        <a href="/mercury"> Mercury </a> <br>
-        <a href="/venus"> Venus </a> <br>
-        <a href="/mars"> Mars </a> <br>
-        <a href="/earth"> Earth </a> <br>
-    
-    <img src="img/earth.jpg" width="50" />
-    
-       <div class="earthP">
-                <p> Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things.
-                Earth is only the fifth largest planet in the solar system, 
-                it is the only world in our solar system with liquid water on the surface. 
-                Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun,
-                all of which are made of rock and metal.</p>
+    <body>
+        <h1>Earth</h1>
+        <div id="info">
+            <img src="/img/earth.jpg" height="400" width=auto/>
+            <span id="text">
+                Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things.
+                While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. 
+                Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.
+                The name Earth is at least 1,000 years old. All of the planets, except for Earth, were named after Greek and Roman gods and goddesses. 
+                However, the name Earth is a Germanic word, which simply means “the ground.”
+            </span>
         </div>
-    
-    <% include partials/footer.ejs %>
-    
-</body>
+        <% include partials/footer.ejs %>
+    </body>
 </html>

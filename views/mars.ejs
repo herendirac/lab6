@@ -1,26 +1,18 @@
-<!-- All ejs tags go with the <%  %>tags -->
 <% include partials/header.ejs %>
 
-
-<body>
-    
-    <h1> Mars Page! </h1>
-    p>Select a different planet to learn about: </p>
-        <a href="/mercury"> Mercury </a> <br>
-        <a href="/venus"> Venus </a> <br>
-        <a href="/mars"> Mars </a> <br>
-        <a href="/earth"> Earth </a> <br>
-    
-    <img src="img/mars.jpg" width="50" />
-    
-    <div class="marsP">
-                <p> The fourth planet from the Sun, Mars is a dusty, cold, 
-                desert world with a very thin atmosphere. This dynamic planet has seasons, 
-                polar ice caps and weather and canyons and extinct volacanoes, evidence of an even more active past.
-                Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape.</p>
+    <body>
+        <h1>Mars</h1>
+        <div id="info">
+            <img src="/img/mars.jpg"/ height="400" width=auto>
+            <span id="text">
+                The fourth planet from the Sun, Mars is a dusty, cold, desert world with a very thin atmosphere.
+                This dynamic planet has seasons, polar ice caps and weather and canyons and extinct volacanoes, evidence of an even more active past.
+                Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape. 
+                NASA currently has three spacecraft in orbit, one rover and one lander on the surface and another rover under construction here on Earth. 
+                India and ESA also have spacecraft in orbit above Mars.
+                These robotic explorers have found lots of evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of years ago.
+            </span>
         </div>
-    
-    <% include partials/footer.ejs %>
-    
-</body>
+        <% include partials/footer.ejs %>
+    </body>
 </html>

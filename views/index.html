@@ -1,23 +1,22 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title> The Solar System! </title>
-        <link rel="stylesheet" href="/css/styles.css" />
+<% include partials/header.ejs %>
     </head>
     <body>
-
-        <h1>Welcome to the Solar System</h1>
-        <p>Click on a planet to know more about it: </p>
-            <a href="/mercury"> Mercury </a> <br>
-            <a href="/venus"> Venus </a> <br>
-            <a href="/mars"> Mars </a> <br>
-            <a href="/earth"> Earth </a> <br>
-            
-            
-        <img src="/img/solar.jpg" alt="The Solar System" />
-
-    <hr>
-  
+        <img src="/img/solar_system.jpg">
+        <h1>The Solar System is comprised of 8 planets:</h1>
+        <dl id="list">
+            <ul><strong>Four Inner Rocky Planets</strong></ul>
+                <li>Mercury</li>
+                <li>Venus</li>
+                <li>Earth</li>
+                <li>Mars</li>
+            <ul><strong>Four Gas Giant Planets</strong></ul>
+                <li>Jupiter</li>
+                <li>Saturn</li>
+                <li>Uranus</li>
+                <li>Neptune</li>
+            <h5>Pluto</h5>
+        </dl>
+        <h2>This website only goes over the four inner, rocky planets.</h2>
+        <% include partials/footer.ejs %>
     </body>
 </html>

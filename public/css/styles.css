@@ -1,0 +1,46 @@
+nav a{
+    padding: 50px;
+    color: deepskyblue;
+    font-weight: bold;
+    transition: .9s;
+}
+nav a:hover{
+    border-bottom: 2px;
+    font-size: 2em;
+    transition: .9s;
+    color:dodgerblue;
+}
+nav #current{
+    color: goldenrod;
+}
+.link{
+    color:darkorange;
+    font-weight:bold;
+}
+.link:hover{
+    color: darkorange;
+}
+
+body{
+    justify-content: center;
+    text-align: center;
+}
+
+#list{
+    font-size: 18px;
+}
+
+ul{
+    font-size: 22px;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    line-height: 2;
+}
+
+#text{
+    width: 40%;
+}
